@@ -1,0 +1,404 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white; /* Set the background color of the entire page to white */
+}
+
+/* Existing CSS for header, sections, and main footer */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: transparent; /* Set the header background to transparent */
+    border-bottom: 1px solid #ddd; /* Optional: border for visual separation */
+}
+
+.header .gray-button {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 20px 60px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+.header .cta-button {
+    background-color: darkgray; /* Slightly different gray for the CTA button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.header .nav {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.header .nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 15px;
+}
+
+.header .nav a:hover {
+    color: gray;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px; /* Increased padding for more spacing */
+    height: 500px; /* Increased height of the section */
+}
+
+.left-side {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-side h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.left-side h5 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.left-side .cta-button {
+    background-color: darkgray; /* Consistent with the CTA button style */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.right-side {
+    flex: 1;
+    background-color: #f0f0f0; /* Light gray background */
+    height: 100%; /* Fill the height of the parent section */
+}
+
+.download-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px; /* Padding for spacing */
+    background-color: #f8f8f8; /* Light background color for contrast */
+}
+
+.download-info {
+    flex: 1;
+}
+
+.download-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.download-info h6 {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.download-section .cta-button {
+    background-color: darkgray; /* Consistent with the CTA button style */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px; /* Padding for spacing */
+}
+
+.info-left {
+    flex: 1;
+}
+
+.info-left h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.info-left p {
+    font-size: 1.2em;
+}
+
+.info-right {
+    flex: 1;
+}
+
+.info-right label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: nowrap; /* Ensure text doesn't wrap to the next line */
+}
+
+.info-right input[type="checkbox"] {
+    margin-right: 10px;
+    vertical-align: middle; /* Align checkbox with text */
+}
+
+.featured-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #f4f4f4; /* Light background color for contrast */
+}
+
+.featured-content {
+    text-align: center;
+    max-width: 800px; /* Adjust width as needed */
+}
+
+.featured-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.featured-content p {
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+
+/* Existing styles above */
+
+.three-part-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f8f8f8; /* Light background color for contrast */
+}
+
+.part {
+    flex: 1;
+    margin: 0 10px; /* Space between the parts */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+}
+
+.box-container {
+    display: flex;
+    justify-content: center; /* Center the boxes within the container */
+    width: 100%; /* Ensure the container takes the full width of .part */
+    margin-bottom: 20px; /* Space between the boxes and the text */
+}
+
+.box {
+    background-color: #d0d0d0; /* Light gray background for the box */
+    width: 30%; /* Each box takes up 30% of the width of the container */
+    height: 100px; /* Set a fixed height for each box */
+    border-radius: 5px; /* Optional: rounded corners for the box */
+    margin: 0 5px; /* Space between each box */
+}
+
+.part h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.part small {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: gray; /* Optional: color for the small text */
+}
+
+.part .cta-button {
+    background-color: darkgray; /* Consistent with the CTA button style */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+/* Existing styles below */
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    background-color: #f4f4f4; /* Light background color for contrast */
+}
+
+.action-content {
+    text-align: center;
+}
+
+.action-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.action-content .cta-button {
+    background-color: darkgray; /* Consistent with the CTA button style */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+/* Footer Styles */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #2c2c2c; /* Smoky black background */
+    color: white;
+}
+
+.footer-part {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.part-1 .gray-box {
+    background-color: #d0d0d0; /* Light gray background */
+    width: 100%;
+    height: 100px; /* Fixed height for the box */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below the box */
+}
+
+.mission-text {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.small-rounds {
+    display: flex;
+    justify-content: center;
+}
+
+.small-round {
+    background-color: gray; /* Gray color for the small rounds */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; /* Circular shape */
+    margin: 0 5px;
+}
+
+.part-2 .more-info {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.footer-links label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.footer-links input[type="checkbox"] {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.stay-in-contact {
+    font-size: 1em;
+    margin: 20px 0;
+}
+
+.contact-info label {
+    display: block;
+    font-size: 1em;
+}
+
+.contact-info input[type="checkbox"] {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Third footer part styles */
+.part-3 {
+    border: 2px solid white; /* White border around the third part */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe-form h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.subscribe-form input[type="text"],
+.subscribe-form input[type="email"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.subscribe-form label {
+    font-size: 1em;
+}
+
+.subscribe-form .cta-button {
+    background-color: darkgray; /* Consistent with the CTA button style */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Second Footer Styles */
+.footer-secondary {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333; /* Dark gray background for the secondary footer */
+    color: white;
+}
+
+.footer-secondary-part {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-secondary-part a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.footer-secondary-part a:hover {
+    text-decoration: underline;
+}
+
+.footer-secondary-part.part-1 p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-secondary-part.part-2 a {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.footer-secondary-part.part-3 p {
+    margin: 0;
+    font-size: 14px;
+}
